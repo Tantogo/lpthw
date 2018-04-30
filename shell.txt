@@ -1,0 +1,51 @@
+pwd		 print working directory hostname 		my computer’s network name 
+mkdir 	make directory cd 		change directory ls		 list directory 
+rmdir 	remove direcrtory
+pushd		push directory
+ popd 		pop directory
+cp 		copy a file or directory
+mv 		move a file or directory
+less  	page through a file
+cat	print the whole file
+xargs execute arguments
+find	find files
+grep		find things inside files
+man		read a manual page
+apropos		find which manual page is appropriate
+env		look at your environment
+echo		print some arguments
+export		export/set a new environment variable
+exit 		exit the shell
+sudo		DANGER! become super user root DANGER! 
+
+
+* cd ~ 
+takes you home 
+
+/ (slash) 
+\ (backslash) 
+
+ mkdir -p
+* mkdir -p (on Linux/macOS) will make an entire path even if all the directories don’t exist  
+
+
+cd ../../..
+
+cd .. 是回到上一级目录
+cd / 是回到根目录
+cd . 就是当前目录
+cd 在mac上cd =cd ～
+
+Integrated Development Environment (IDE) 
+graphical user interface (GUI) 
+command line interface (CLI) 
+
+* ls -lr 
+￼
+
+there is actually a file in there called .DS_Store. In that case, type rm -rf <dir> instead (replace <dir> with the directory name). 
+
+pushd *** :save where i am,  then go ***
+popd  ***: back to  the last directory you pushed 
+pushd : no  arguments, switch between saved and current directory.
+
